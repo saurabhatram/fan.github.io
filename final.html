@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>
+            Fanpickd
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <style>
+            #cc{
+              /*border: 2px solid black;*/
+               text-align: center;
+            }
+            #navigation{ 
+
+                margin:0px !important;
+                padding:0px !important;
+            }
+            #intro{
+                width: 50%;
+                height: auto;
+                margin-left: 30%;
+                margin-top: 10%;
+                
+               /* transform: rotate(10deg);*/
+            }
+            #salty{
+                width: 50%;
+                height: auto;
+                margin-left: 10%;
+                margin-top: 10%;
+               /* transform: rotate(10deg);*/
+            }
+            #first{
+                background-image: url("page.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                /*margin:0% !important;*/
+                margin-top: 3%;
+                padding-bottom: 4%;
+                float:left;
+                border-bottom: 15px solid #ECBF00;
+                /*border-top: 1px solid black;*/
+                
+            }
+            #second{
+                background-image: url("page2.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                margin:0% !important;
+                padding-bottom: 4%;
+                float:left;
+                border-top: 15px solid  	#2FEAF9;
+                border-bottom: 15px solid #000000;
+            }
+            #name{
+                text-align: center;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page">
+            <div>
+                <nav  id="navigation" class="navbar fixed-top navbar-light navbar-expand-xl navbar-dark "  style="background-color: black">
+                    <a href="final.html" class="navbar-brand" style="margin-left: 50px;">
+                        <img src="logo_w.png" style="width: 100px;" >
+                    </a> 
+                    <ul class="navbar-nav" style=" margin: auto;">
+                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item active mx-3 dropdown">
+                            <a href="final.html" class="nav-link dropdown-toggle" id="nav_dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUNCHES</a>
+                            <div class="dropdown-menu" aria-labelledby="nav_dropdown">
+                                    <a class="dropdown-item" href="#">Sea Blue Salty</a>
+                                    <a class="dropdown-item" href="#">Crazy Chatpata</a>
+                                    <a class="dropdown-item" href="#">Munchy Masala</a>
+                                    <a class="dropdown-item" href="#">Dairy Fresh Cheese</a>
+                                    <a class="dropdown-item" href="#">Refereshing Pudina</a>
+                                    <a class="dropdown-item" href="#">Khata Metha</a>
+                                    <a class="dropdown-item" href="#">Saucy Tomato</a>
+                                    <a class="dropdown-item" href="#">Garlicky Chatkaa</a>   
+                                
+                            </div>
+
+                        </li>
+                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">SHOP ON</a></li>
+                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">ABOUT US</a></li>
+                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">GALLERY</a></li>
+                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">CONTACT US</a></li>                        
+
+                    </ul> 
+                </nav>
+            </div>
+            
+        <div id="first" class="container-fluid"">
+            <div class="row">
+                <div class="col-lg-6 col-md-1 col-sm-1" id="name">
+                    <h4 class="display-4">Crazy Chatpata</h4>
+                    <p id="cc">
+                        
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img id="intro" src="intro2.png">
+                </div>
+            </div>
+        </div>     
+
+        <div id="second">
+                <div class="row">
+                        <div class="col-lg-6">
+                                <img id="salty" src="salty.png">
+                            </div>    
+                    <div class="col-lg-6 col-md-1 col-sm-1" id="name">
+                            <h4 class="display-4">Salty</h4>
+                            <p id="cc">
+                               
+                            </p>
+                        </div>
+                        
+                    </div>
+        </div>
+        </div>
+    </body>
+</html>
