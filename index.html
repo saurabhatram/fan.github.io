@@ -7,7 +7,8 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <style>
+        <script src="https://kit.fontawesome.com/895ae8ff67.js"></script>
+       <style>
             #cc{
               /*border: 2px solid black;*/
                text-align: center;
@@ -18,36 +19,38 @@
                 padding:0px !important;
             }
             #intro{
-                width: 50%;
+                width: 60%;
                 height: auto;
                 margin-left: 30%;
                 margin-top: 10%;
                 
-               /* transform: rotate(10deg);*/
+               
             }
             #salty{
-                width: 50%;
+                width: 60%;
                 height: auto;
-                margin-left: 10%;
                 margin-top: 10%;
-               /* transform: rotate(10deg);*/
+               
             }
             #first{
-                background-image: url("page.jpg");
+                background-color: #EDC001;
+               
                 background-size: cover;
                 background-repeat: no-repeat;
                 width: 100%;
                 height: auto;
-                /*margin:0% !important;*/
+               
                 margin-top: 3%;
                 padding-bottom: 4%;
                 float:left;
-                border-bottom: 15px solid #ECBF00;
-                /*border-top: 1px solid black;*/
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
                 
             }
             #second{
-                background-image: url("page2.jpg");
+               
+               background-color: #2ee9f8;
                 background-size: cover;
                 background-repeat: no-repeat;
                 width: 100%;
@@ -55,35 +58,315 @@
                 margin:0% !important;
                 padding-bottom: 4%;
                 float:left;
-                border-top: 15px solid  	#2FEAF9;
-                border-bottom: 15px solid #000000;
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
             }
+            #third{
+                background-color: #f69c2e;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                padding-bottom: 4%;
+                float:left;
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+            }
+            #fourth{
+               
+               background-color: #f8f371;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                margin:0% !important;
+                padding-bottom: 4%;
+                float:left;
+               
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+            }
+            #fifth{
+                background-color: #c4e0b7;
+               
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+               
+                
+                padding-bottom: 4%;
+                float:left;
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+                
+            }
+            #sixth{
+               
+               background-color: #dab581;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                margin:0% !important;
+                padding-bottom: 4%;
+                float:left;
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+            }
+            #seven{
+                background-color: #fa6163;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                padding-bottom: 4%;
+                float:left;
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+            }
+            #eight{
+               
+               background-color: #cdcdcd;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                margin:0% !important;
+                padding-bottom: 4%;
+                float:left;
+               
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+            }
+            #nine{
+                background-color: #f9dddc;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto;
+                padding-bottom: 4%;
+                float:left;
+                
+                border-bottom: 10px solid transparent;
+                border-image: url(banan.png) 30 round;
+            }
+            
             #name{
                 text-align: center;
                 margin-top: 20px;
             }
+            #logo{
+                width: 100px;
+            }
+
+            #buybtn{
+                background-color: black;
+                color: blanchedalmond;
+                transition: background-color 0.5s, color 0.5s;
+            }
+            #buybtn:hover{
+                background-color: blanchedalmond;
+                color: black;
+                
+            }
+
+            #bottom{
+                height: 30%;
+                width: 100%;
+                color: blanchedalmond;
+                text-align: center;
+            }
+            #callimg{
+                width:50px;
+            }
+
+            @media screen and (max-width : 1080px) and (max-height : 1920px) 
+            {
+                #logo{
+                    width: 250px;
+                    padding: 7%;
+                }
+                #unorderlist{
+                    font-size: 50px;
+                    text-align: center;
+                }
+                #first{
+                    background-color: #EDC001;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    margin: 15% 6% 6% 6%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-bottom: 15px solid #ECBF00;
+                    font-size: xx-large;
+                }
+                #second{
+                    background-color: #2ee9f8;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    width: 100%;
+                    height: auto;
+                    margin:5%;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-top: 15px solid  	#2FEAF9;
+                    
+                   
+                }
+                #third{
+                    background-color: #f69c2e;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    margin: 0% 6% 6% 6%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-bottom: 15px solid #ECBF00;
+                    font-size: xx-large;
+                }
+                #fourth{
+                    background-color: #f8f371;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    width: 100%;
+                    height: auto;
+                    margin:5%;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-top: 15px solid  	#2FEAF9;
+                    border-bottom: 15px solid #000000;
+                   
+                }
+                #fifth{
+                    background-color: #c4e0b7;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    margin: 15% 6% 6% 6%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-bottom: 15px solid #ECBF00;
+                    font-size: xx-large;
+                }
+                #sixth{
+                    background-color: #dab581;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    width: 100%;
+                    height: auto;
+                    margin:5%;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-top: 15px solid  	#2FEAF9;
+                    
+                   
+                }
+                #seven{
+                    background-color: #fa6163;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    margin: 0% 6% 6% 6%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-bottom: 15px solid #ECBF00;
+                    font-size: xx-large;
+                }
+                #eight{
+                    background-color: #cdcdcd;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    width: 100%;
+                    height: auto;
+                    margin:5%;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-top: 15px solid  	#2FEAF9;
+                    border-bottom: 15px solid #000000;
+                   
+                }
+                #nine{
+                    background-color: #f9dddc;
+                    border: 2px solid black;
+                    border-radius: 25px;
+                    margin: 0% 6% 6% 6%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 4%;
+                    float:left;
+                    border-bottom: 15px solid #ECBF00;
+                    font-size: xx-large;
+                }
+                #buybtn{
+                    background-color: black;
+                    color: blanchedalmond;
+                    transition: background-color 0.5s, color 0.5s;
+                }
+                #buybtn:hover{
+                    background-color: blanchedalmond;
+                    color: black;
+                    
+                }
+            }
+
         </style>
     </head>
-    <body>
+    <body style="background-color:#000000 ;">
         <div id="page">
-            <div>
+            <div id="nav_div">
                 <nav  id="navigation" class="navbar fixed-top navbar-light navbar-expand-xl navbar-dark "  style="background-color: black">
                     <a href="final.html" class="navbar-brand" style="margin-left: 50px;">
-                        <img src="logo_w.png" style="width: 100px;" >
+                        <img src="logo_w.png" id="logo" >
                     </a> 
-                    <ul class="navbar-nav" style=" margin: auto;">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav" style=" margin: auto;" id="unorderlist">
                         <li class="nav-item active mx-3"><a href="final.html" class="nav-link">HOME</a></li>
                         <li class="nav-item active mx-3 dropdown">
                             <a href="final.html" class="nav-link dropdown-toggle" id="nav_dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUNCHES</a>
-                            <div class="dropdown-menu" aria-labelledby="nav_dropdown">
-                                    <a class="dropdown-item" href="#">Sea Blue Salty</a>
-                                    <a class="dropdown-item" href="#">Crazy Chatpata</a>
-                                    <a class="dropdown-item" href="#">Munchy Masala</a>
-                                    <a class="dropdown-item" href="#">Dairy Fresh Cheese</a>
-                                    <a class="dropdown-item" href="#">Refereshing Pudina</a>
-                                    <a class="dropdown-item" href="#">Khata Metha</a>
-                                    <a class="dropdown-item" href="#">Saucy Tomato</a>
-                                    <a class="dropdown-item" href="#">Garlicky Chatkaa</a>   
+                            <div class="dropdown-menu" aria-labelledby="nav_dropdown" style="text-align: center;">
+                                <a class="dropdown-item" href="#first">Crazy Chatpata</a>    
+                                <a class="dropdown-item" href="#second">Sea Blue Salty</a>
+                                    <a class="dropdown-item" href="#third">Munchy Masala</a>
+                                    <a class="dropdown-item" href="#fourth">Dairy Fresh Cheese</a>
+                                    <a class="dropdown-item" href="#fifth">Refereshing Pudina</a>
+                                    <a class="dropdown-item" href="#sixth">Khata Metha</a>
+                                    <a class="dropdown-item" href="#seven">Saucy Tomato</a>
+                                    <a class="dropdown-item" href="#eight">Smoky Peppery</a>
+                                    <a class="dropdown-item" href="#nine">Garlicky Chatkaa</a>   
                                 
                             </div>
 
@@ -91,40 +374,176 @@
                         <li class="nav-item active mx-3"><a href="final.html" class="nav-link">SHOP ON</a></li>
                         <li class="nav-item active mx-3"><a href="final.html" class="nav-link">ABOUT US</a></li>
                         <li class="nav-item active mx-3"><a href="final.html" class="nav-link">GALLERY</a></li>
-                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">CONTACT US</a></li>                        
+                        <li class="nav-item active mx-3"><a href="final.html" class="nav-link">REACH US</a></li>                        
 
                     </ul> 
+                      </div>
                 </nav>
             </div>
             
-        <div id="first" class="container-fluid"">
+        <div id="first" class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-1 col-sm-1" id="name">
-                    <h4 class="display-4">Crazy Chatpata</h4>
+                <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                    <h4 class="display-1">Crazy Chatpata</h4>
                     <p id="cc">
                         
                     </p>
+                    <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
                 </div>
-                <div class="col-lg-6">
-                    <img id="intro" src="intro2.png">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img id="intro" class="img-fluid mx-auto d-block" src="crazy_chatpata.png">
                 </div>
             </div>
         </div>     
 
-        <div id="second">
+        <div id="second" class="container-fluid">
                 <div class="row">
-                        <div class="col-lg-6">
-                                <img id="salty" src="salty.png">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                <img id="salty" class="img-fluid mx-auto d-block" src="salty.png">
                             </div>    
-                    <div class="col-lg-6 col-md-1 col-sm-1" id="name">
-                            <h4 class="display-4">Salty</h4>
+                    <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                            <h4 class="display-1">Sea Blue Salty</h4>
                             <p id="cc">
                                
                             </p>
+                            <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
                         </div>
                         
                     </div>
         </div>
+        <div id="third" class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                    <h4 class="display-1">Munchy Masala</h4>
+                    <p id="cc">
+                        
+                    </p>
+                    <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img id="intro" class="img-fluid mx-auto d-block" src="mm.png">
+                </div>
+            </div>
+        </div> 
+        <div id="fourth" class="container-fluid">
+            <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                            <img id="salty" class="img-fluid mx-auto d-block" src="cheese.png">
+                        </div>    
+                <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                        <h4 class="display-1">Dairy Fresh Cheese</h4>
+                        <p id="cc">
+                           
+                        </p>
+                        <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+                    </div>
+                    
+                </div>
+    </div>
+    <div id="fifth" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                <h4 class="display-1">Refreshing Pudina</h4>
+                <p id="cc">
+                    
+                </p>
+                <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img id="intro" class="img-fluid mx-auto d-block" src="pudina.png">
+            </div>
         </div>
-    </body>
+    </div>     
+
+    <div id="sixth" class="container-fluid">
+            <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                            <img id="salty" class="img-fluid mx-auto d-block" src="km.jpg">
+                        </div>    
+                <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                        <h4 class="display-1">Khatta Metha</h4>
+                        <p id="cc">
+                           
+                        </p>
+                        <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+                    </div>
+                    
+                </div>
+    </div>
+    <div id="seven" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                <h4 class="display-1">Saucy Tomato</h4>
+                <p id="cc">
+                    
+                </p>
+                <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img id="intro" class="img-fluid mx-auto d-block" src="st.jpg">
+            </div>
+        </div>
+    </div> 
+    <div id="eight" class="container-fluid">
+        <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img id="salty" class="img-fluid mx-auto d-block" src="sp.jpg">
+                    </div>    
+            <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                    <h4 class="display-1">Smoky Peppery</h4>
+                    <p id="cc">
+                       
+                    </p>
+                    <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+                </div>
+                
+            </div>
+    </div>
+    
+    <div id="nine" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12" id="name">
+                <h4 class="display-1">Garlicky Chatkaa</h4>
+                <p id="cc">
+                    
+                </p>
+                <a href="https://www.amazon.in/s?me=AAFM8WDT6I88Z&marketplaceID=A21TJRUUN4KGV" target="blank"><button class="btn btn-lg" id="buybtn"><i class="fab fa-amazon"></i> BUY NOW</button></a>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img id="intro" class="img-fluid mx-auto d-block" src="gc.png">
+            </div>
+        </div>
+    </div>
+        
+    </div>
+    <div id="bottom" >
+        <footer class="container"> 
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h3>MARKETED BY :</h3>
+                    <p class="display-4">INVINCIBLE FOODS</p>
+                    <p>F-1, Vighnaharta appt,
+                    Deep Bunglow Chowk, Model Colony,
+                    Pune,Maharashtra - 411016</p>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h3>CONTACT :</h3>
+                    <a style="text-decoration: none; color: blanchedalmond;" href="tel:+918638349905"><img id="callimg" src="phone.png"> - ABHISHEK</a><br>
+                    <a style="text-decoration: none; color: blanchedalmond;" href="tel:+918299517206"><img id="callimg" src="phone.png"> - SAURABH</a>
+                </div>
+                
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h3>SOCIAL :</h3>
+                    <a href="https://www.facebook.com/fanpickd/" target="blank"><img id="callimg" src="face.png"></a>
+                    <a href="https://www.instagram.com/fanpickd/" target="blank"><img id="callimg" src="insta.png"></a>
+                    <a href="mailto:invinciblefoods@gmail.com" target="blank"><img id="callimg" src="gmail.png"></a>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+
 </html>
